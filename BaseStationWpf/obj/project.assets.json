@@ -33,11 +33,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Max\\source\\repos\\BaseStationLibrary\\BaseStationWpf\\BaseStationWpf.csproj",
+      "projectUniqueName": "C:\\Users\\Max\\Desktop\\BaseStationLibrary\\BaseStationWpf\\BaseStationWpf.csproj",
       "projectName": "BaseStationWpf",
-      "projectPath": "C:\\Users\\Max\\source\\repos\\BaseStationLibrary\\BaseStationWpf\\BaseStationWpf.csproj",
+      "projectPath": "C:\\Users\\Max\\Desktop\\BaseStationLibrary\\BaseStationWpf\\BaseStationWpf.csproj",
       "packagesPath": "C:\\Users\\Max\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Max\\source\\repos\\BaseStationLibrary\\BaseStationWpf\\obj\\",
+      "outputPath": "C:\\Users\\Max\\Desktop\\BaseStationLibrary\\BaseStationWpf\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -58,8 +58,8 @@
         "net8.0-windows7.0": {
           "targetAlias": "net8.0-windows",
           "projectReferences": {
-            "C:\\Users\\Max\\source\\repos\\BaseStationLibrary\\BaseStationLibrary\\BaseStationLibrary.csproj": {
-              "projectPath": "C:\\Users\\Max\\source\\repos\\BaseStationLibrary\\BaseStationLibrary\\BaseStationLibrary.csproj"
+            "C:\\Users\\Max\\Desktop\\BaseStationLibrary\\BaseStationLibrary\\BaseStationLibrary.csproj": {
+              "projectPath": "C:\\Users\\Max\\Desktop\\BaseStationLibrary\\BaseStationLibrary\\BaseStationLibrary.csproj"
             }
           }
         }

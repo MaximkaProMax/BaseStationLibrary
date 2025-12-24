@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Max\\Desktop\\BaseStationLibrary\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{069DBD7E-DD52-4B9F-969F-EDB2770BE1BF}|BaseStationWpf\\BaseStationWpf.csproj|c:\\users\\max\\desktop\\basestationlibrary\\basestationwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{069DBD7E-DD52-4B9F-969F-EDB2770BE1BF}|BaseStationWpf\\BaseStationWpf.csproj|solutionrelative:basestationwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Max\\Desktop\\BaseStationLibrary\\BaseStationWpf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "BaseStationWpf\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Max\\Desktop\\BaseStationLibrary\\BaseStationWpf\\MainWindow.xaml",
+              "RelativeToolTip": "BaseStationWpf\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-12-24T20:45:50.831Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

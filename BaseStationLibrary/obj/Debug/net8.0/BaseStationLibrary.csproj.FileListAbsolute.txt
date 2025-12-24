@@ -9,3 +9,15 @@ C:\Users\Max\source\repos\BaseStationLibrary\BaseStationLibrary\obj\Debug\net8.0
 C:\Users\Max\source\repos\BaseStationLibrary\BaseStationLibrary\obj\Debug\net8.0\refint\BaseStationLibrary.dll
 C:\Users\Max\source\repos\BaseStationLibrary\BaseStationLibrary\obj\Debug\net8.0\BaseStationLibrary.pdb
 C:\Users\Max\source\repos\BaseStationLibrary\BaseStationLibrary\obj\Debug\net8.0\ref\BaseStationLibrary.dll
+C:\Users\Max\Desktop\BaseStationLibrary\BaseStationLibrary\bin\Debug\net8.0\BaseStationLibrary.deps.json
+C:\Users\Max\Desktop\BaseStationLibrary\BaseStationLibrary\bin\Debug\net8.0\BaseStationLibrary.dll
+C:\Users\Max\Desktop\BaseStationLibrary\BaseStationLibrary\bin\Debug\net8.0\BaseStationLibrary.pdb
+C:\Users\Max\Desktop\BaseStationLibrary\BaseStationLibrary\obj\Debug\net8.0\BaseStationLibrary.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Max\Desktop\BaseStationLibrary\BaseStationLibrary\obj\Debug\net8.0\BaseStationLibrary.AssemblyInfoInputs.cache
+C:\Users\Max\Desktop\BaseStationLibrary\BaseStationLibrary\obj\Debug\net8.0\BaseStationLibrary.AssemblyInfo.cs
+C:\Users\Max\Desktop\BaseStationLibrary\BaseStationLibrary\obj\Debug\net8.0\BaseStationLibrary.csproj.CoreCompileInputs.cache
+C:\Users\Max\Desktop\BaseStationLibrary\BaseStationLibrary\obj\Debug\net8.0\BaseStationLibrary.sourcelink.json
+C:\Users\Max\Desktop\BaseStationLibrary\BaseStationLibrary\obj\Debug\net8.0\BaseStationLibrary.dll
+C:\Users\Max\Desktop\BaseStationLibrary\BaseStationLibrary\obj\Debug\net8.0\refint\BaseStationLibrary.dll
+C:\Users\Max\Desktop\BaseStationLibrary\BaseStationLibrary\obj\Debug\net8.0\BaseStationLibrary.pdb
+C:\Users\Max\Desktop\BaseStationLibrary\BaseStationLibrary\obj\Debug\net8.0\ref\BaseStationLibrary.dll
