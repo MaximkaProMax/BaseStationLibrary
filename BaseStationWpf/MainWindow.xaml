@@ -1,0 +1,174 @@
+﻿<Window x:Class="BaseStationWpf.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Расчёт базовых станций"
+        Height="900" Width="900"
+        Background="#FFFFFF">
+
+    <Window.Resources>
+        <FontFamily x:Key="Montserrat">Fonts/#Montserrat</FontFamily>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="FontFamily" Value="{StaticResource Montserrat}"/>
+            <Setter Property="FontSize" Value="18"/>
+        </Style>
+
+        <Style TargetType="TextBox">
+            <Setter Property="FontFamily" Value="{StaticResource Montserrat}"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="Margin" Value="0 5"/>
+            <Setter Property="Padding" Value="6"/>
+            <Setter Property="BorderBrush" Value="#4A67F7"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <Style TargetType="ComboBox">
+            <Setter Property="FontFamily" Value="{StaticResource Montserrat}"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="Margin" Value="0 5"/>
+            <Setter Property="Padding" Value="6"/>
+            <Setter Property="BorderBrush" Value="#4A67F7"/>
+            <Setter Property="BorderThickness" Value="1"/>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="FontFamily" Value="{StaticResource Montserrat}"/>
+            <Setter Property="FontSize" Value="18"/>
+            <Setter Property="Background" Value="#4A67F7"/>
+            <Setter Property="Foreground" Value="White"/>
+            <Setter Property="Padding" Value="8"/>
+            <Setter Property="Margin" Value="0 10 0 0"/>
+            <Setter Property="FontWeight" Value="Bold"/>
+            <Setter Property="BorderThickness" Value="0"/>
+            <Setter Property="Height" Value="40"/>
+        </Style>
+    </Window.Resources>
+
+    <DockPanel>
+        <Border Background="#B5DEFA" Padding="10" DockPanel.Dock="Top">
+            <StackPanel Orientation="Horizontal" VerticalAlignment="Center">
+                <Image Source="Resources/logo.png"
+                       Height="40"
+                       Stretch="Uniform"/>
+                <TextBlock Text="Расчёт базовых станций"
+                           FontSize="26"
+                           FontWeight="Bold"
+                           Margin="15 0 0 0"/>
+            </StackPanel>
+        </Border>
+
+        <Grid Margin="20">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="Auto"/>
+                <RowDefinition Height="*"/>
+            </Grid.RowDefinitions>
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition Width="3*"/>
+            </Grid.ColumnDefinitions>
+
+            <TextBlock Grid.Row="0" Grid.Column="0"
+                       Text="Ввод данных"
+                       FontSize="20"
+                       FontWeight="Bold"
+                       Background="#B5DEFA"
+                       Padding="10"
+                       Margin="0 0 10 10"/>
+
+            <TextBlock Grid.Row="0" Grid.Column="1"
+                       Text="Результаты"
+                       FontSize="20"
+                       FontWeight="Bold"
+                       Background="#B5DEFA"
+                       Padding="10"
+                       Margin="0 0 0 10"/>
+
+            <StackPanel Grid.Row="1" Grid.Column="0" Margin="10">
+                <TextBlock Text="Площадь района (км²)" />
+                <TextBox Text="{Binding Area}"/>
+
+                <TextBlock Text="Площадь покрытия БС (км²)" />
+                <TextBox Text="{Binding CoverageArea}"/>
+
+                <TextBlock Text="Радиусы трёх БС (км)" />
+                <StackPanel Orientation="Horizontal">
+                    <TextBox Text="{Binding R1}" Width="60" Margin="0 5 5 5"/>
+                    <TextBox Text="{Binding R2}" Width="60" Margin="0 5 5 5"/>
+                    <TextBox Text="{Binding R3}" Width="60" Margin="0 5"/>
+                </StackPanel>
+
+                <TextBlock Text="Коэффициент застройки" />
+                <ComboBox ItemsSource="{Binding BuildCoefficients}"
+                          SelectedItem="{Binding SelectedCoefficient}"/>
+
+                <Separator Margin="0 10"/>
+
+                <TextBlock Text="ID базовой станции" />
+                <TextBox Text="{Binding StationId}"/>
+
+                <Button Content="Загрузить хэндовер"
+                        Command="{Binding LoadHandoverCommand}"
+                        Height="35"/>
+
+                <TextBlock Text="Средний хэндовер" />
+                <TextBox Text="{Binding Handover}"/>
+
+                <TextBlock Text="Допустимый хэндовер" />
+                <TextBox Text="{Binding HandoverLimit}"/>
+
+                <Button Content="Рассчитать"
+                        Command="{Binding CalculateCommand}"
+                        Height="45"/>
+            </StackPanel>
+
+            <Border Grid.Row="1" Grid.Column="1"
+                    Padding="20"
+                    CornerRadius="8"
+                    BorderBrush="#4A67F7"
+                    BorderThickness="1"
+                    Margin="20"
+                    Background="Transparent">
+
+                <StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0 4" VerticalAlignment="Center">
+                        <TextBox Text="{Binding ResultR0}" IsReadOnly="True"
+                                 FontSize="22" Padding="4" Width="250"
+                                 BorderBrush="#4A67F7" BorderThickness="2"
+                                 Background="Transparent" Margin="0"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0 4" VerticalAlignment="Center">
+                        <TextBox Text="{Binding ResultR}" IsReadOnly="True"
+                                 FontSize="22" Padding="4" Width="250"
+                                 BorderBrush="#4A67F7" BorderThickness="2"
+                                 Background="Transparent" Margin="0"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0 4" VerticalAlignment="Center">
+                        <TextBox Text="{Binding ResultL}" IsReadOnly="True"
+                                 FontSize="22" Padding="4" Width="250"
+                                 BorderBrush="#4A67F7" BorderThickness="2"
+                                 Background="Transparent" Margin="0"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0 4" VerticalAlignment="Center">
+                        <TextBox Text="{Binding ResultC}" IsReadOnly="True"
+                                 FontSize="22" Padding="4" Width="250"
+                                 BorderBrush="#4A67F7" BorderThickness="2"
+                                 Background="Transparent" Margin="0"/>
+                    </StackPanel>
+
+                    <StackPanel Orientation="Horizontal" Margin="0 4" VerticalAlignment="Center">
+                        <TextBox Text="{Binding ResultN}" IsReadOnly="True"
+                                 FontSize="22" Padding="4" Width="250"
+                                 BorderBrush="#4A67F7" BorderThickness="2"
+                                 Background="Transparent" Margin="0"/>
+                    </StackPanel>
+
+                </StackPanel>
+            </Border>
+        </Grid>
+    </DockPanel>
+</Window>
