@@ -12,8 +12,8 @@
       }
     ],
     "additionalProbingPaths": [
-      "C:\\Users\\Max\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Max\\.nuget\\packages",
+      "C:\\Users\\Zhold\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\Zhold\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
     ],
     "configProperties": {

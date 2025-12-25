@@ -3,7 +3,9 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         Title="Расчёт базовых станций"
         Height="900" Width="900"
-        Background="#FFFFFF">
+        Background="#FFFFFF"
+        Icon="C:\Users\Zhold\OneDrive\Рабочий стол\BaseStationLibrary\BaseStationWpf\Resources\Icon_App.ico">
+
 
     <Window.Resources>
         <FontFamily x:Key="Montserrat">Fonts/#Montserrat</FontFamily>

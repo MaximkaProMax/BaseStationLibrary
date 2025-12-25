@@ -1,9 +1,9 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Max\\Desktop\\BaseStationLibrary\\",
+  "WorkspaceRootPath": "C:\\Users\\Zhold\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\BaseStationLibrary\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{069DBD7E-DD52-4B9F-969F-EDB2770BE1BF}|BaseStationWpf\\BaseStationWpf.csproj|c:\\users\\max\\desktop\\basestationlibrary\\basestationwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{069DBD7E-DD52-4B9F-969F-EDB2770BE1BF}|BaseStationWpf\\BaseStationWpf.csproj|c:\\users\\zhold\\onedrive\\\u0440\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\basestationlibrary\\basestationwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{069DBD7E-DD52-4B9F-969F-EDB2770BE1BF}|BaseStationWpf\\BaseStationWpf.csproj|solutionrelative:basestationwpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
@@ -14,15 +14,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "MainWindow.xaml",
-              "DocumentMoniker": "C:\\Users\\Max\\Desktop\\BaseStationLibrary\\BaseStationWpf\\MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Zhold\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\BaseStationLibrary\\BaseStationWpf\\MainWindow.xaml",
               "RelativeDocumentMoniker": "BaseStationWpf\\MainWindow.xaml",
-              "ToolTip": "C:\\Users\\Max\\Desktop\\BaseStationLibrary\\BaseStationWpf\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Zhold\\OneDrive\\\u0420\u0430\u0431\u043E\u0447\u0438\u0439 \u0441\u0442\u043E\u043B\\BaseStationLibrary\\BaseStationWpf\\MainWindow.xaml",
               "RelativeToolTip": "BaseStationWpf\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-12-24T20:45:50.831Z",
